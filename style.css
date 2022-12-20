@@ -1,0 +1,12 @@
+#carre {
+	background-color: rgb(136, 174, 136);
+	color: rgb(255, 255, 255);
+	height: 200px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: "Times New Roman", 40px;
+	margin-left: auto;
+	margin-right: auto;
+}

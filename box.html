@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width" , inital-scale="1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="carre" onclick="addAlert()">
+      <p>Texte</p>
+      <script>
+        const element = document.querySelector("#carre");
+        const style = window.getComputedStyle(element);
+        // var styleString = require("style.css");
+        function addAlert() {
+          alert(
+            "color : " +
+              style.color +
+              "\n background color: " +
+              style.backgroundColor +
+              "\n height: " +
+              style.height +
+              "\n width: " +
+              style.width +
+              "\n display: " +
+              style.display
+          );
+        }
+      </script>
+    </div>
+  </body>
+</html>
